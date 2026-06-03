@@ -31,7 +31,7 @@ and dropping queue mechanism.
 file.
 * STEP 16: At the particular time call the finish procedure. 
 * STEP 17: Stop the program.
-
+```
 #Create a simulator object 
 set ns [new Simulator] 
 #Open the nam trace file 
@@ -108,7 +108,7 @@ $ns at 4.5 "$cbr0 stop"
 #Call the finish procedure after 5 seconds of simulation time 
 $ns at 5.0 "finish" 
 $ns run
-
+```
 # OUTPUT
 
 <img width="1003" height="586" alt="image" src="https://github.com/user-attachments/assets/0673d9d9-e6d0-4057-80b1-5f7d60987ab1" />
